@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alessandro Mencarini</title>
-    <link>http://alessandromencarini.it/</link>
-    <description>Recent content on Alessandro Mencarini</description>
+    <title>Functional Programming on Alessandro Mencarini</title>
+    <link>http://alessandromencarini.it/tags/functional-programming/</link>
+    <description>Recent content in Functional Programming on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
-    <atom:link href="http://alessandromencarini.it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://alessandromencarini.it/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trying out Elm</title>
@@ -106,29 +106,6 @@ But I am inferring that the definition has this type:
 &lt;p&gt;Elm delivers on the promise to provide with a super-safe way to build front-end applications. The ramp-up time can be high as there&amp;rsquo;s a lot to learn, especially if you&amp;rsquo;re not used to functional programming, or strict time systems. That said, I think the advantage of not having to with good ol&amp;rsquo; JavaScript&amp;rsquo;s quirks (albeit ES2015 improvements are tangible), is great value.&lt;/p&gt;
 
 &lt;p&gt;There is certainly lots of work I need to do to fully understand the language potential, but so far it&amp;rsquo;s been a great experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://alessandromencarini.it/pages/hello/</link>
-      <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
-      
-      <guid>http://alessandromencarini.it/pages/hello/</guid>
-      <description>&lt;p&gt;Hi!&lt;/p&gt;
-
-&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly on the web, for the last few years.&lt;/p&gt;
-
-&lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ruby-lang.org/&#34;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://elixir-lang.org/&#34;&gt;Elixir&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;Phoenix&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JavaScript&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://elm-lang.org/&#34;&gt;Elm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

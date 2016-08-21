@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Trying out Elm // Alessandro Mencarini
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.16" />
+
+  <meta property="og:title" content="Trying out Elm" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://alessandromencarini.it/tech/trying-out-elm/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://alessandromencarini.it//css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Alessandro Mencarini" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-82897906-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+	  <img src="/images/img.jpg" class="sidebarphoto">
+	
+
+    <h1 class="brand-title">Alessandro, Developer.</h1>
+    
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://alessandromencarini.it/">Home</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/pages/hello">About me</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/tech">Tech Blog</a></li>
+        
+      </ul>
+    </nav>
+
+    
+    <div class="social-buttons">
+      
+        
+        <a href="https://github.com/amencarini" target="_blank"><i class='fa fa-github'></i></a>
+        
+      
+        
+        <a href="https://twitter.com/amencarini" target="_blank"><i class='fa fa-twitter'></i></a>
+        
+      
+      
+    </div>
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
+				<small class="toc-label">Contents</small>
+		   	 	<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#the-rundown">The rundown</a></li>
+<li><a href="#the-architecture">The Architecture</a></li>
+<li><a href="#type-system">Type system</a></li>
+<li><a href="#infinitely-nestable">&ldquo;Infinitely nestable&rdquo;?</a></li>
+<li><a href="#tl-dr">tl;dr</a></li>
+</ul></li>
+</ul>
+</nav>
+		    </div>
+		    
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/tech/trying-out-elm/">Trying out Elm</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>21</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Aug</span> <span class="post-date-year">2016</span>
+            	</span>
+            	
+            
+            	
+            
+
+			
+			
+				<div class="post-categories">
+				
+					<a class="post-category post-category-development" href="http://alessandromencarini.it//categories/development">Development</a>
+				
+				</div>
+			
+
+			
+
+			
+
+            
+
+<p>I&rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&hellip; What should I use to get back on track?</p>
+
+<p>As I&rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for <a href="http://elm-lang.org/">Elm</a>, a functional language that compiles to JavaScript.</p>
+
+<p>So, I&rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&rsquo;ve tried to push my understanding to its limit, to see if the hype was warrented.</p>
+
+<h2 id="the-rundown">The rundown</h2>
+
+<p>Elm takes a completely clean break from JavaScript, despite compiling to it.</p>
+
+<p>A few characteristics of Elm:</p>
+
+<ul>
+<li>Statically typed, with union types being at its core</li>
+<li>Completely immutable</li>
+<li>Purely functional (there is a specific part of the standard library dealing with side effects)</li>
+<li>Very cleverly designed interoperability with JavaScript</li>
+<li>No non-sense tooling: the compiler is called elm-make, the repl elm-repl, etc.</li>
+</ul>
+
+<h2 id="the-architecture">The Architecture</h2>
+
+<p>In the Elm community there&rsquo;s a standard way of setting up applications that emerged. It&rsquo;s called, unsurprisingly, <a href="http://guide.elm-lang.org/architecture/index.html">The Elm Architecture</a>. I suggest you take a read. But what is it all about?</p>
+
+<ul>
+<li>The application has three main elements: Model, View, and Update.</li>
+<li>Data flows uniderectionaly: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.</li>
+</ul>
+
+<p>This pattern, conjoined by fact that the model sits in a single place, allows for some spectacular tricks, my favourite being the <a href="http://debug.elm-lang.org/">time travelling debugger</a>.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/RUeLd7T7Xi4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h2 id="type-system">Type system</h2>
+
+<p>One of the things that I struggled the most while getting up to speed with Elm was its type system. The reason being, all functions can be automatically curried. Let&rsquo;s see an example from the repl:</p>
+
+<pre><code>&gt; hello name location = &quot;Hello, &quot; ++ name ++ &quot;, from &quot; ++ location
+&lt;function&gt; : String -&gt; String -&gt; String
+&gt; hello &quot;Alessandro&quot;
+&lt;function&gt; : String -&gt; String
+&gt; hello &quot;Alessandro&quot; &quot;London&quot;
+&quot;Hello, Alessandro, from London&quot; : String
+</code></pre>
+
+<p>So, what&rsquo;s going on here? I defined a function, <code>hello</code>, that accepts two parameters, and returns a string. This emerges from the notation, <code>&lt;function&gt; : String -&gt; String -&gt; String</code>. But what happens if we pass only one parameter of the two? The repl says, <code>&lt;function&gt; : String -&gt; String</code>, meaning we&rsquo;re getting back the partially-applied version of hello, now accepting a single string, and returns a string.</p>
+
+<p>As you can see, the compiler does an outstanding job in inferring types and gives you amazing hints when something is not quite right.</p>
+
+<pre><code>The type annotation for `myMethod` does not match its definition. - The type annotation is saying:
+
+    String -&gt; String -&gt; String
+
+But I am inferring that the definition has this type:
+
+    String -&gt; String -&gt; Int
+</code></pre>
+
+<p>While dealing with the types can sometimes be daunting, NoRedInk reported no runtime expections since they deployed Elm, code in production. Not many companies dealing with front-end can match that sort of claim, I&rsquo;m sure.</p>
+
+<p>Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly now what to fix.</p>
+
+<h2 id="infinitely-nestable">&ldquo;Infinitely nestable&rdquo;?</h2>
+
+<p>The claim that mostly got my attention was this:</p>
+
+<blockquote>
+<p>The Elm Architecture is a simple pattern for infinitely nestable components</p>
+</blockquote>
+
+<p>Intrigued, I set out to create a Trello &ldquo;clone&rdquo;, <a href="https://github.com/amencarini/trellex">Trellex</a>, using Elm on the client and Phoenix on the server. The initial model was as follow:</p>
+
+<p>I have a <code>Main</code> module where the application gets initialised. The model is a <code>Board</code>, which has has many <code>List</code>s. A <code>List</code> has many <code>Card</code>s.</p>
+
+<p>The difficult bit is the fact that any event, wherever it&rsquo;s been triggered, it will go through the <code>update</code> function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the <code>Main</code> I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.</p>
+
+<p>In the end I changed the modelling completely, having all the sub-models directly available from <code>Main</code>, and that actually made the application a lot easier to grok.</p>
+
+<p>Perhaps it&rsquo;s just me not understanding the correct way to deal with this. This could also be related to the language still to reach version 1.0.</p>
+
+<h2 id="tl-dr">tl;dr</h2>
+
+<p>Elm delivers on the promise to provide with a super-safe way to build front-end applications. The ramp-up time can be high as there&rsquo;s a lot to learn, especially if you&rsquo;re not used to functional programming, or strict time systems. That said, I think the advantage of not having to with good ol&rsquo; JavaScript&rsquo;s quirks (albeit ES2015 improvements are tangible), is great value.</p>
+
+<p>There is certainly lots of work I need to do to fully understand the language potential, but so far it&rsquo;s been a great experience.</p>
+
+	
+			
+
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-elm" href="http://alessandromencarini.it//tags/elm">elm</a>,
+	                
+	                <a class="post-tag post-tag-functional-programming" href="http://alessandromencarini.it//tags/functional-programming">functional-programming</a>,
+	                
+	                <a class="post-tag post-tag-front-end" href="http://alessandromencarini.it//tags/front-end">front-end</a>,
+	                
+				</div>
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+
+					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/pages/hello/">About me</a>
+		            </div>
+		            
+	            </div>
+            
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+			<li><a href="/posts">Blog</a></li>
+		
+		</ul>
+	</div>
+
+	<p>&copy; 2016. All rights reserved.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>
