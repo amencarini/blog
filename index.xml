@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alessandro Mencarini</title>
-    <link>http://alessandromencarini.it/</link>
+    <link>http://amencarini.com/</link>
     <description>Recent content on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
-    <atom:link href="http://alessandromencarini.it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://amencarini.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trying out Elm</title>
-      <link>http://alessandromencarini.it/tech/trying-out-elm/</link>
+      <link>http://amencarini.com/tech/trying-out-elm/</link>
       <pubDate>Sun, 21 Aug 2016 13:56:23 +0100</pubDate>
       
-      <guid>http://alessandromencarini.it/tech/trying-out-elm/</guid>
+      <guid>http://amencarini.com/tech/trying-out-elm/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&amp;hellip; What should I use to get back on track?&lt;/p&gt;
@@ -111,13 +111,13 @@ But I am inferring that the definition has this type:
     
     <item>
       <title>About me</title>
-      <link>http://alessandromencarini.it/pages/hello/</link>
+      <link>http://amencarini.com/pages/hello/</link>
       <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
       
-      <guid>http://alessandromencarini.it/pages/hello/</guid>
+      <guid>http://amencarini.com/pages/hello/</guid>
       <description>&lt;p&gt;Hi!&lt;/p&gt;
 
-&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly on the web, for the last few years.&lt;/p&gt;
+&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly for the web, for the last few years.&lt;/p&gt;
 
 &lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
 

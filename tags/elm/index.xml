@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elm on Alessandro Mencarini</title>
-    <link>http://alessandromencarini.it/tags/elm/</link>
+    <link>http://amencarini.com/tags/elm/</link>
     <description>Recent content in Elm on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
-    <atom:link href="http://alessandromencarini.it/tags/elm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://amencarini.com/tags/elm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trying out Elm</title>
-      <link>http://alessandromencarini.it/tech/trying-out-elm/</link>
+      <link>http://amencarini.com/tech/trying-out-elm/</link>
       <pubDate>Sun, 21 Aug 2016 13:56:23 +0100</pubDate>
       
-      <guid>http://alessandromencarini.it/tech/trying-out-elm/</guid>
+      <guid>http://amencarini.com/tech/trying-out-elm/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&amp;hellip; What should I use to get back on track?&lt;/p&gt;

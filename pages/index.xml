@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Alessandro Mencarini</title>
-    <link>http://alessandromencarini.it/pages/</link>
+    <link>http://amencarini.com/pages/</link>
     <description>Recent content in Pages on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Fri, 21 Aug 2015 14:52:22 +0100</lastBuildDate>
-    <atom:link href="http://alessandromencarini.it/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://amencarini.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About me</title>
-      <link>http://alessandromencarini.it/pages/hello/</link>
+      <link>http://amencarini.com/pages/hello/</link>
       <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
       
-      <guid>http://alessandromencarini.it/pages/hello/</guid>
+      <guid>http://amencarini.com/pages/hello/</guid>
       <description>&lt;p&gt;Hi!&lt;/p&gt;
 
-&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly on the web, for the last few years.&lt;/p&gt;
+&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly for the web, for the last few years.&lt;/p&gt;
 
 &lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
 
