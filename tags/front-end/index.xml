@@ -39,7 +39,7 @@
 
 &lt;h2 id=&#34;the-architecture&#34;&gt;The Architecture&lt;/h2&gt;
 
-&lt;p&gt;In the Elm community there&amp;rsquo;s a standard way of setting up applications that emerged. It&amp;rsquo;s called, unsurprisingly, &lt;a href=&#34;http://guide.elm-lang.org/architecture/index.html&#34;&gt;The Elm Architecture&lt;/a&gt;. I suggest you take a read. But what is it all about?&lt;/p&gt;
+&lt;p&gt;In the Elm community there&amp;rsquo;s a standard way of setting up applications that emerged. It&amp;rsquo;s called, unsurprisingly, &lt;a href=&#34;http://guide.elm-lang.org/architecture/index.html&#34;&gt;The Elm Architecture&lt;/a&gt;. I suggest you give it a read. But what is it all about?&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The application has three main elements: Model, View, and Update.&lt;/li&gt;
@@ -79,9 +79,9 @@ But I am inferring that the definition has this type:
     String -&amp;gt; String -&amp;gt; Int
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;While dealing with the types can sometimes be daunting, NoRedInk reported no runtime expections since they deployed Elm, code in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
+&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime expections on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
 
-&lt;p&gt;Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly now what to fix.&lt;/p&gt;
+&lt;p&gt;Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly know what to fix.&lt;/p&gt;
 
 &lt;h2 id=&#34;infinitely-nestable&#34;&gt;&amp;ldquo;Infinitely nestable&amp;rdquo;?&lt;/h2&gt;
 
@@ -95,15 +95,15 @@ But I am inferring that the definition has this type:
 
 &lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
 
-&lt;p&gt;The difficult bit is the fact that any event, wherever it&amp;rsquo;s been triggered, it will go through the &lt;code&gt;update&lt;/code&gt; function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the &lt;code&gt;Main&lt;/code&gt; I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.&lt;/p&gt;
+&lt;p&gt;The difficult bit is the fact that any event, wherever it&amp;rsquo;s been triggered, will go through the &lt;code&gt;update&lt;/code&gt; function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the &lt;code&gt;Main&lt;/code&gt; I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.&lt;/p&gt;
 
 &lt;p&gt;In the end I changed the modelling completely, having all the sub-models directly available from &lt;code&gt;Main&lt;/code&gt;, and that actually made the application a lot easier to grok.&lt;/p&gt;
 
-&lt;p&gt;Perhaps it&amp;rsquo;s just me not understanding the correct way to deal with this. This could also be related to the language still to reach version 1.0.&lt;/p&gt;
+&lt;p&gt;Perhaps it&amp;rsquo;s just me not understanding the correct way to deal with this. This could also be related to the language still to reach version 1.0: best practices and patterns have yet to be set in stone.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;tl;dr&lt;/h2&gt;
 
-&lt;p&gt;Elm delivers on the promise to provide with a super-safe way to build front-end applications. The ramp-up time can be high as there&amp;rsquo;s a lot to learn, especially if you&amp;rsquo;re not used to functional programming, or strict time systems. That said, I think the advantage of not having to with good ol&amp;rsquo; JavaScript&amp;rsquo;s quirks (albeit ES2015 improvements are tangible), is great value.&lt;/p&gt;
+&lt;p&gt;Elm delivers on the promise to provide with a super-safe way to build front-end applications. The ramp-up time can be high as there&amp;rsquo;s a lot to learn, especially if you&amp;rsquo;re not used to functional programming, or strict type systems. That said, I think the advantage of not having to with good ol&amp;rsquo; JavaScript&amp;rsquo;s quirks (albeit ES2015 improvements are tangible), is great value.&lt;/p&gt;
 
 &lt;p&gt;There is certainly lots of work I need to do to fully understand the language potential, but so far it&amp;rsquo;s been a great experience.&lt;/p&gt;
 </description>
