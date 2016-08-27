@@ -92,7 +92,7 @@ ga('send', 'pageview');
         
           <li class="nav-item"><span class="nav-item-separator">//</span><a href="/pages/hello">About me</a></li>
         
-          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/tech">Tech Blog</a></li>
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/tech">Tech</a></li>
         
       </ul>
     </nav>
@@ -102,6 +102,10 @@ ga('send', 'pageview');
       
         
         <a href="https://github.com/amencarini" target="_blank"><i class='fa fa-github'></i></a>
+        
+      
+        
+        <a href="https://uk.linkedin.com/in/alessandromencarini" target="_blank"><i class='fa fa-linkedin'></i></a>
         
       
         
@@ -165,6 +169,8 @@ ga('send', 'pageview');
 			
 				<div class="post-categories">
 				
+					<a class="post-category post-category-new-toys" href="http://amencarini.com//categories/new-toys">New toys</a>
+				
 					<a class="post-category post-category-development" href="http://amencarini.com//categories/development">Development</a>
 				
 				</div>
@@ -180,7 +186,7 @@ ga('send', 'pageview');
 
 <p>As I&rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for <a href="http://elm-lang.org/">Elm</a>, a functional language that compiles to JavaScript.</p>
 
-<p>So, I&rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&rsquo;ve tried to push my understanding to its limit, to see if the hype was warrented.</p>
+<p>So, I&rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&rsquo;ve tried to push my understanding to its limit, to see if the hype was warranted.</p>
 
 <h2 id="the-rundown">The rundown</h2>
 
@@ -202,7 +208,7 @@ ga('send', 'pageview');
 
 <ul>
 <li>The application has three main elements: Model, View, and Update.</li>
-<li>Data flows uniderectionaly: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.</li>
+<li>Data flows uniderectionally: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.</li>
 </ul>
 
 <p>This pattern, conjoined by fact that the model sits in a single place, allows for some spectacular tricks, my favourite being the <a href="http://debug.elm-lang.org/">time travelling debugger</a>.</p>
@@ -238,7 +244,7 @@ But I am inferring that the definition has this type:
     String -&gt; String -&gt; Int
 </code></pre>
 
-<p>While dealing with the types can sometimes be daunting, <a href="http://tech.noredink.com/">NoRedInk</a> reported no runtime expections on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&rsquo;m sure.</p>
+<p>While dealing with the types can sometimes be daunting, <a href="http://tech.noredink.com/">NoRedInk</a> reported no runtime exceptions on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&rsquo;m sure.</p>
 
 <p>Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly know what to fix.</p>
 
@@ -252,7 +258,7 @@ But I am inferring that the definition has this type:
 
 <p>Intrigued, I set out to create a Trello &ldquo;clone&rdquo;, <a href="https://github.com/amencarini/trellex">Trellex</a>, using Elm on the client and Phoenix on the server. The initial model was as follow:</p>
 
-<p>I have a <code>Main</code> module where the application gets initialised. The model is a <code>Board</code>, which has has many <code>List</code>s. A <code>List</code> has many <code>Card</code>s.</p>
+<p>I have a <code>Main</code> module where the application gets initialised. The model is a <code>Board</code>, which has many <code>List</code>s. A <code>List</code> has many <code>Card</code>s.</p>
 
 <p>The difficult bit is the fact that any event, wherever it&rsquo;s been triggered, will go through the <code>update</code> function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the <code>Main</code> I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.</p>
 
@@ -286,6 +292,11 @@ But I am inferring that the definition has this type:
 				<div class="paging">
 					<span class="paging-label">More Reading</span>
 					
+					<div class="paging-newer">
+						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
+						<a class="paging-link" href="/tech/recruiters-vs-devs-the-eternal-struggle/">Recruiters vs Devs: The Eternal Conflict</a>
+		            </div>
+		            
 
 					
 					<div class="paging-older">
@@ -321,7 +332,7 @@ But I am inferring that the definition has this type:
 		
 			<li><a href="/pages/hello">About me</a></li>
 		
-			<li><a href="/tech">Tech Blog</a></li>
+			<li><a href="/tech">Tech</a></li>
 		
 		</ul>
 	</div>

@@ -21,7 +21,7 @@
 
 &lt;p&gt;As I&amp;rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for &lt;a href=&#34;http://elm-lang.org/&#34;&gt;Elm&lt;/a&gt;, a functional language that compiles to JavaScript.&lt;/p&gt;
 
-&lt;p&gt;So, I&amp;rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&amp;rsquo;ve tried to push my understanding to its limit, to see if the hype was warrented.&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&amp;rsquo;ve tried to push my understanding to its limit, to see if the hype was warranted.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-rundown&#34;&gt;The rundown&lt;/h2&gt;
 
@@ -43,7 +43,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;The application has three main elements: Model, View, and Update.&lt;/li&gt;
-&lt;li&gt;Data flows uniderectionaly: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.&lt;/li&gt;
+&lt;li&gt;Data flows uniderectionally: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This pattern, conjoined by fact that the model sits in a single place, allows for some spectacular tricks, my favourite being the &lt;a href=&#34;http://debug.elm-lang.org/&#34;&gt;time travelling debugger&lt;/a&gt;.&lt;/p&gt;
@@ -79,7 +79,7 @@ But I am inferring that the definition has this type:
     String -&amp;gt; String -&amp;gt; Int
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime expections on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
+&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime exceptions on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
 
 &lt;p&gt;Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly know what to fix.&lt;/p&gt;
 
@@ -93,7 +93,7 @@ But I am inferring that the definition has this type:
 
 &lt;p&gt;Intrigued, I set out to create a Trello &amp;ldquo;clone&amp;rdquo;, &lt;a href=&#34;https://github.com/amencarini/trellex&#34;&gt;Trellex&lt;/a&gt;, using Elm on the client and Phoenix on the server. The initial model was as follow:&lt;/p&gt;
 
-&lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
+&lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
 
 &lt;p&gt;The difficult bit is the fact that any event, wherever it&amp;rsquo;s been triggered, will go through the &lt;code&gt;update&lt;/code&gt; function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the &lt;code&gt;Main&lt;/code&gt; I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.&lt;/p&gt;
 

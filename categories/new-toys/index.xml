@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Alessandro Mencarini</title>
-    <link>http://amencarini.com/categories/development/</link>
-    <description>Recent content in Development on Alessandro Mencarini</description>
+    <title>New Toys on Alessandro Mencarini</title>
+    <link>http://amencarini.com/categories/new-toys/</link>
+    <description>Recent content in New Toys on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
-    <atom:link href="http://amencarini.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://amencarini.com/categories/new-toys/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Trying out Elm</title>

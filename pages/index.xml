@@ -15,9 +15,11 @@
       <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
       
       <guid>http://amencarini.com/pages/hello/</guid>
-      <description>&lt;p&gt;Hi!&lt;/p&gt;
+      <description>
 
-&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly for the web, for the last few years.&lt;/p&gt;
+&lt;h3 id=&#34;hi&#34;&gt;Hi!&lt;/h3&gt;
+
+&lt;p&gt;My name&amp;rsquo;s Alessandro Mencarini. I&amp;rsquo;m a programmer, mostly for the web. I am a proud member of &lt;a href=&#34;http://goo.gl/KKPpfH&#34;&gt;Team B&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
 

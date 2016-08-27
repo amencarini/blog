@@ -6,8 +6,105 @@
     <description>Recent content on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
-    <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 Aug 2016 10:05:59 +0100</lastBuildDate>
     <atom:link href="http://amencarini.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recruiters vs Devs: The Eternal Conflict</title>
+      <link>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</link>
+      <pubDate>Sat, 27 Aug 2016 10:05:59 +0100</pubDate>
+      
+      <guid>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</guid>
+      <description>
+
+&lt;h2 id=&#34;a-sour-relationship&#34;&gt;A sour relationship&lt;/h2&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Subject: What Type of Girls Do Rails Guys Tend to Date?&amp;quot; HT &lt;a href=&#34;https://twitter.com/gabrielgironda&#34;&gt;@gabrielgironda&lt;/a&gt;&lt;a href=&#34;https://t.co/nrWZAcZ4R9&#34;&gt;pic.twitter.com/nrWZAcZ4R9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shit Recruiters Say (@recruiterbro) &lt;a href=&#34;https://twitter.com/recruiterbro/status/767753200178909184&#34;&gt;August 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;em&gt;&lt;a href=&#34;https://twitter.com/recruiterbro&#34;&gt;Shit Recruiters Say&lt;/a&gt; is a great addition to your Twitter feed.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The relationship between developers and recruiters is not an easy one.&lt;/p&gt;
+
+&lt;p&gt;For developers, recruiters are mostly a pain in the back, bothering at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career.&lt;/p&gt;
+
+&lt;p&gt;For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiter (privately and publicly) because it builds camaraderie.&lt;/p&gt;
+
+&lt;p&gt;As many things in life, the truth is likely to be found in the middle ground. Devs can overreact and be nasty about recruiters getting in touch. But that happens also because of the sheer amount of rubbish they receive.&lt;/p&gt;
+
+&lt;p&gt;A dev&amp;rsquo;s attention span is already challenged by the inordinate amount of information they have to ingest and digest during their day-to-day at work.&lt;/p&gt;
+
+&lt;p&gt;I have received a few emails asking &amp;ldquo;what&amp;rsquo;s the best number&amp;rdquo; to discuss a Scala lead position in Amsterdam: I don&amp;rsquo;t have any commercial experience in Scala and I&amp;rsquo;m not interested in relocating.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s a major waste of my time and my attention. That will make me grumpy with absolute certainty.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://amencarini.com/images/grumpy_cat_go_away.jpg&#34; alt=&#34;Grumpy Cat says go away&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dear-recruiter&#34;&gt;Dear recruiter&lt;/h2&gt;
+
+&lt;p&gt;I appreciate that you may have quotas to reach and mostly rely on commissions to make a living. But if you start to heavily spam any dev in your database without any criteria, you&amp;rsquo;ll lose whatever goodwill I have towards you.&lt;/p&gt;
+
+&lt;p&gt;So: some practical tips on how to best interact with the sorry bunch we, developers, are.&lt;/p&gt;
+
+&lt;h3 id=&#34;do-your-due-diligence&#34;&gt;Do your due diligence&lt;/h3&gt;
+
+&lt;p&gt;I have been contacted recently, by two different recruiters, for a Ruby job based on the fact that I have &lt;a href=&#34;https://github.com/amencarini/dummy&#34;&gt;a public Ruby repository on my GitHub&lt;/a&gt;. Now: any developer will quickly realise this is a test repository, and indeed I used it to test the GitHub API when building code around it.&lt;/p&gt;
+
+&lt;p&gt;While I appreciate you are not a developer, try to have a vague idea of what you&amp;rsquo;re recruiting for. Spend half an hour a day for a week doing this &lt;a href=&#34;https://www.codeschool.com/courses/rails-for-zombies-redux&#34;&gt;Rails introductory course&lt;/a&gt; and at the very least you&amp;rsquo;ll start to discern between real repositories and fake ones.&lt;/p&gt;
+
+&lt;h3 id=&#34;be-relevant&#34;&gt;Be relevant&lt;/h3&gt;
+
+&lt;p&gt;That one should be pretty easy. There are two possible scenarios: you either know or don&amp;rsquo;t know what I&amp;rsquo;m looking for in terms of my next career move.&lt;/p&gt;
+
+&lt;p&gt;This really boils down to a few simple things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do you know if I&amp;rsquo;m actively looking on the market?&lt;/li&gt;
+&lt;li&gt;Do you know what technologies I&amp;rsquo;m skilled with?&lt;/li&gt;
+&lt;li&gt;Do you know what technologies I would and would not enjoy to work with?&lt;/li&gt;
+&lt;li&gt;Do you know if I&amp;rsquo;m looking for a role that&amp;rsquo;s more technical or more managerial?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the answer is no to any of these, do one thing: ask me.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be happy to give you the rundown on when I&amp;rsquo;ll be possibly looking if I&amp;rsquo;m not currently on the market, and what are my aspirations. You can stick that information in your CRM, or whatever you use, and contact me at a good time for a role that may look appealing to me, given the information above.&lt;/p&gt;
+
+&lt;h3 id=&#34;don-t-ask-for-my-number&#34;&gt;Don&amp;rsquo;t ask for my number&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You don’t have my number&lt;br /&gt;
+We don’t need each other now&lt;br /&gt;
+&lt;em&gt;–Foals, &lt;a href=&#34;https://www.youtube.com/watch?v=bAsGFnLl2u0&#34;&gt;My Number&lt;/a&gt;, 2012&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Perhaps my biggest bugbear when being contacted by recruiters is when the introductory email follows the following pattern:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I have this opportunity for a &lt;em&gt;very-secretive-company-that-does-something-extremely-generic&lt;/em&gt;. What&amp;rsquo;s the best number we can discuss this amazing opportunity on?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The answer to that question is: none. There is no number we can discuss anything on. Why is that, you ask? Well, if I were to have a 15 minutes chat with recruiters any time they got in touch, I wouldn&amp;rsquo;t have any spare time left for anything else.&lt;/p&gt;
+
+&lt;p&gt;You know how we could have had a conversation? If you sent me the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The name of the company you&amp;rsquo;re hiring for;&lt;/li&gt;
+&lt;li&gt;A job spec that has candidate requirements and the tech stack your client/company uses;&lt;/li&gt;
+&lt;li&gt;A salary range.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And of course all of the above must click with my goals.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you are afraid that when I&amp;rsquo;ll be given a company name, I&amp;rsquo;ll go directly with them. That would increase my chances of being employed as the company won&amp;rsquo;t have to pay you commissions, right?&lt;/p&gt;
+
+&lt;p&gt;You may have had bad experiences in this regard, but most developers I know are not that awful a person. If you got me a good lead, I&amp;rsquo;d be following it through with you.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-interest-is-mutual&#34;&gt;The interest is mutual&lt;/h2&gt;
+
+&lt;p&gt;In the end it&amp;rsquo;s in the developer community interest to have a healthy recruiting ecosystem. We would be overwhelmed by the sheer amount of opportunities out there and having a filter that works is absolutely critical.&lt;/p&gt;
+
+&lt;p&gt;But you, recruiter, have to step it up. Let&amp;rsquo;s be on the same page. Understand what I&amp;rsquo;m talking about when I refer to, say, front-end and back-end. And both our careers will benefit from that.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Trying out Elm</title>
@@ -21,7 +118,7 @@
 
 &lt;p&gt;As I&amp;rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for &lt;a href=&#34;http://elm-lang.org/&#34;&gt;Elm&lt;/a&gt;, a functional language that compiles to JavaScript.&lt;/p&gt;
 
-&lt;p&gt;So, I&amp;rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&amp;rsquo;ve tried to push my understanding to its limit, to see if the hype was warrented.&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&amp;rsquo;ve tried to push my understanding to its limit, to see if the hype was warranted.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-rundown&#34;&gt;The rundown&lt;/h2&gt;
 
@@ -43,7 +140,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;The application has three main elements: Model, View, and Update.&lt;/li&gt;
-&lt;li&gt;Data flows uniderectionaly: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.&lt;/li&gt;
+&lt;li&gt;Data flows uniderectionally: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This pattern, conjoined by fact that the model sits in a single place, allows for some spectacular tricks, my favourite being the &lt;a href=&#34;http://debug.elm-lang.org/&#34;&gt;time travelling debugger&lt;/a&gt;.&lt;/p&gt;
@@ -79,7 +176,7 @@ But I am inferring that the definition has this type:
     String -&amp;gt; String -&amp;gt; Int
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime expections on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
+&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime exceptions on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
 
 &lt;p&gt;Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly know what to fix.&lt;/p&gt;
 
@@ -93,7 +190,7 @@ But I am inferring that the definition has this type:
 
 &lt;p&gt;Intrigued, I set out to create a Trello &amp;ldquo;clone&amp;rdquo;, &lt;a href=&#34;https://github.com/amencarini/trellex&#34;&gt;Trellex&lt;/a&gt;, using Elm on the client and Phoenix on the server. The initial model was as follow:&lt;/p&gt;
 
-&lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
+&lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
 
 &lt;p&gt;The difficult bit is the fact that any event, wherever it&amp;rsquo;s been triggered, will go through the &lt;code&gt;update&lt;/code&gt; function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the &lt;code&gt;Main&lt;/code&gt; I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.&lt;/p&gt;
 
@@ -115,9 +212,11 @@ But I am inferring that the definition has this type:
       <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
       
       <guid>http://amencarini.com/pages/hello/</guid>
-      <description>&lt;p&gt;Hi!&lt;/p&gt;
+      <description>
 
-&lt;p&gt;My name&amp;rsquo;s Alessandro and I&amp;rsquo;ve been a programmer, mostly for the web, for the last few years.&lt;/p&gt;
+&lt;h3 id=&#34;hi&#34;&gt;Hi!&lt;/h3&gt;
+
+&lt;p&gt;My name&amp;rsquo;s Alessandro Mencarini. I&amp;rsquo;m a programmer, mostly for the web. I am a proud member of &lt;a href=&#34;http://goo.gl/KKPpfH&#34;&gt;Team B&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
 
