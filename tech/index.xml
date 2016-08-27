@@ -10,7 +10,7 @@
     <atom:link href="http://amencarini.com/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Recruiters vs Devs: The Eternal Conflict</title>
+      <title>Recruiters vs Devs: The Eternal Struggle</title>
       <link>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</link>
       <pubDate>Sat, 27 Aug 2016 10:05:59 +0100</pubDate>
       
@@ -37,7 +37,14 @@
 
 &lt;p&gt;That&amp;rsquo;s a major waste of my time and my attention. That will make me grumpy with absolute certainty.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://amencarini.com/images/grumpy_cat_go_away.jpg&#34; alt=&#34;Grumpy Cat says go away&#34; /&gt;&lt;/p&gt;
+
+&lt;figure class=&#34;responsive&#34;&gt;
+    
+        &lt;img src=&#34;http://amencarini.com/images/grumpy_cat_go_away.jpg&#34; alt=&#34;Grumpy Cat says go away&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
 
 &lt;h2 id=&#34;dear-recruiter&#34;&gt;Dear recruiter&lt;/h2&gt;
 
