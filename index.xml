@@ -6,8 +6,80 @@
     <description>Recent content on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
-    <lastBuildDate>Sat, 27 Aug 2016 10:05:59 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Sep 2016 19:45:29 +0100</lastBuildDate>
     <atom:link href="http://amencarini.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>React on Phoenix</title>
+      <link>http://amencarini.com/tech/react-on-phoenix/</link>
+      <pubDate>Thu, 08 Sep 2016 19:45:29 +0100</pubDate>
+      
+      <guid>http://amencarini.com/tech/react-on-phoenix/</guid>
+      <description>&lt;p&gt;Phoenix&amp;rsquo;s author Chris McCord decided that instead of implementing a brand new pipeline for JavaScript and CSS, it was wiser to rely on existing tools. Specifically, &lt;a href=&#34;http://brunch.io/&#34;&gt;Brunch&lt;/a&gt; was chosen.&lt;/p&gt;
+
+&lt;p&gt;An advantage of this is that using React with ES6 and JSX is dead easy, as Babel is already available for us.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In your Phoenix project&amp;rsquo;s directory install the Node modules you&amp;rsquo;ll need:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ npm install --save react react-dom babel-preset-react
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Change &lt;code&gt;brunch-config.js&lt;/code&gt; and add the &lt;code&gt;presets&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// Configure your plugins
+plugins: {
+  babel: {
+    presets: [&amp;quot;es2015&amp;quot;, &amp;quot;react&amp;quot;],
+    // Do not use ES6 compiler in vendor code
+    ignore: [/web\/static\/vendor/]
+  }
+},
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add a div for your React in your view&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip; and React code in &lt;code&gt;app.js&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;import React from &amp;quot;react&amp;quot;
+import ReactDOM from &amp;quot;react-dom&amp;quot;
+
+class Title extends React.Component {
+  render() {
+    return (&amp;lt;h1&amp;gt;React works!&amp;lt;/h1&amp;gt;)
+  }
+}
+
+ReactDOM.render(
+  &amp;lt;Title /&amp;gt;,
+  document.getElementById(&amp;quot;app&amp;quot;)
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Et voila!&lt;/p&gt;
+
+
+&lt;figure class=&#34;responsive&#34;&gt;
+    
+        &lt;img src=&#34;http://amencarini.com/images/react-on-phoenix.png&#34; alt=&#34;You&amp;#39;ll see the h1 appearing on your page.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Recruiters vs Devs: The Eternal Struggle</title>

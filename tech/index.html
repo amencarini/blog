@@ -134,6 +134,35 @@ ga('send', 'pageview');
             <header class="post-header">
             
             <h1 class="post-title">
+              <a href="/tech/react-on-phoenix/">React on Phoenix</a>
+            </h1>
+            </header>
+            <p class="post-meta">
+            	
+		          <span class="post-date">
+		            <span class="post-date-day"><sup>8</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Sep</span> <span class="post-date-year">2016</span>
+		          </span>
+      				
+      				
+      					
+      				
+              
+                <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>1 min. read</em></span>
+              
+      				
+            </p>
+            <article class="post-summary">
+            	Phoenix&rsquo;s author Chris McCord decided that instead of implementing a brand new pipeline for JavaScript and CSS, it was wiser to rely on existing tools. Specifically, Brunch was chosen. An advantage of this is that using React with ES6 and JSX is dead easy, as Babel is already available for us. In your Phoenix project&rsquo;s directory install the Node modules you&rsquo;ll need: $ npm install --save react react-dom babel-preset-react Change brunch-config.js and add the presets: // Configure your plugins plugins: { babel: { presets: [&quot;es2015&quot;, &quot;react&quot;], // Do not use ES6 compiler in vendor code ignore: [/web\/static\/vendor/] } }, Add a div for your React in your view&hellip; &lt;div id=&quot;app&quot;&gt;&lt;/div&gt; &hellip; and React code in app.js import React from &quot;react&quot; import ReactDOM from &quot;react-dom&quot; class Title extends React.Component { render() { return (&lt;h1&gt;React works!&lt;/h1&gt;) } } ReactDOM.render( &lt;Title /&gt;, document.getElementById(&quot;app&quot;) ) Et voila!
+            </article>
+			<div class="read-more-link">
+				<a href="/tech/react-on-phoenix/"><span class="read-more-slashes">//</span>Read More...</a>
+			</div>
+          </section>
+        
+          <section  class="post">
+            <header class="post-header">
+            
+            <h1 class="post-title">
               <a href="/tech/recruiters-vs-devs-the-eternal-struggle/">Recruiters vs Devs: The Eternal Struggle</a>
             </h1>
             </header>
