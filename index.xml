@@ -6,8 +6,94 @@
     <description>Recent content on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
-    <lastBuildDate>Thu, 08 Sep 2016 19:45:29 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Oct 2016 12:25:59 +0100</lastBuildDate>
     <atom:link href="http://amencarini.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Compelling job specs</title>
+      <link>http://amencarini.com/tech/compelling-job-specs/</link>
+      <pubDate>Sat, 01 Oct 2016 12:25:59 +0100</pubDate>
+      
+      <guid>http://amencarini.com/tech/compelling-job-specs/</guid>
+      <description>
+
+&lt;h2 id=&#34;the-quest-for-the-holy-grail&#34;&gt;The quest for the Holy Grail&lt;/h2&gt;
+
+&lt;p&gt;A job spec that developers relate to is a rare sight.&lt;/p&gt;
+
+&lt;p&gt;I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is &lt;a href=&#34;http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/&#34;&gt;the relationship between recruiters and developers&lt;/a&gt;. The conversation got interesting when he said this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I am not sure our job specs are very good.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At that point, I had a fleeting recollection that while on Twitter, I stumbled on the &lt;a href=&#34;https://zapier.com/about/&#34;&gt;Zapier jobs page&lt;/a&gt;. Specifically I had a look at the &lt;a href=&#34;https://zapier.com/jobs/product-engineer-fall-2016/&#34;&gt;Product Engineer spec&lt;/a&gt;. I also took a &lt;a href=&#34;http://amencarini.com/images/zapier-job-spec.png&#34;&gt;screenshot&lt;/a&gt; of the spec, for when they find their perfect candidate and the page gets removed!&lt;/p&gt;
+
+&lt;p&gt;I am always wowed by the quality they show in their job specs.&lt;/p&gt;
+
+&lt;h2 id=&#34;ease-the-application-process&#34;&gt;Ease the application process&lt;/h2&gt;
+
+&lt;p&gt;Zapier understands that even applying for a job can be daunting. This passage sums it up:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We know applying for and taking on a new a job at any company requires a leap of faith. We want you to feel comfortable and excited to apply at Zapier. To help share a bit more about life at Zapier, here are a few resources in addition to the job description that can give you an inside look at what life is like at Zapier. Hopefully you&amp;rsquo;ll take the leap of faith and apply.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think this is great. Having stuff like a company code of conduct, a remote work policy, and/or a description of what the day to day of what working for the company looks like, can be beneficial to the amount of applications you&amp;rsquo;ll receive.&lt;/p&gt;
+
+&lt;h2 id=&#34;lay-out-the-challenges&#34;&gt;Lay out the challenges&lt;/h2&gt;
+
+&lt;p&gt;If your company works on something interesting and unusual, let that emerge. Interesting problems can range from GIS, to machine learning, to simply scale up a part of the system the candidate will be working on.&lt;/p&gt;
+
+&lt;p&gt;Specify what processes you use on your day-to-day: how invested is the company on practices like TDD or pair programming? What&amp;rsquo;s your current stack? Do you plan to change what the stack is made of in a few months/years?&lt;/p&gt;
+
+&lt;h2 id=&#34;no-bullet-point-requirements&#34;&gt;No &amp;ldquo;bullet point&amp;rdquo; requirements&lt;/h2&gt;
+
+&lt;p&gt;Many specs will list in a very dry way what they expect the candidate to know or be experienced with. Zapier explains in a nice way &lt;em&gt;who&lt;/em&gt; they&amp;rsquo;re looking for, hot &lt;em&gt;what&lt;/em&gt; they&amp;rsquo;re looking for.&lt;/p&gt;
+
+&lt;p&gt;Hard requirements can sometimes be intimidating. Many good developers are often on the &amp;ldquo;bad&amp;rdquo; side of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&#34;&gt;Dunning-Kruger&lt;/a&gt; curve. They will see that 3 years of experience are required, and if they have 2 years of experience they will not apply. We&amp;rsquo;re pedantic, keep it in mind.&lt;/p&gt;
+
+&lt;p&gt;Zapier also helps with this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Regardless of how well you feel you fit our description, we encourage you to apply if [&amp;hellip;]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Again, when you hire someone, they&amp;rsquo;ll shape the position more than the position will shape them.&lt;/p&gt;
+
+&lt;h2 id=&#34;it-s-not-about-the-employer&#34;&gt;It&amp;rsquo;s not about the employer&lt;/h2&gt;
+
+&lt;p&gt;No need to loiter too long on what the company does; if I&amp;rsquo;m on the page it&amp;rsquo;s quite likely I know about the company already. Much better to talk about the company&amp;rsquo;s philosophy, and what happens at the company outside of working hours. A list of social events, a description of a day at the office (or on the Slack channel, if 100% remote); things like these can give a picture about the culture, and can give a strong signal to the candidate on whether the company is a good fit or not.&lt;/p&gt;
+
+&lt;p&gt;A good candidate will do their due diligence anyway, learning as much as possible about the business.&lt;/p&gt;
+
+&lt;h2 id=&#34;github-is-a-bad-source-of-truth&#34;&gt;GitHub is a bad source of truth&lt;/h2&gt;
+
+&lt;p&gt;Zapier takes a sensible approach to open source contributions from the candidate:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Include links to your portfolio/Github profile or provide us with 500+ LOC to help us get a feel for how you write code.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If the candidate is active on OSS projects, good. Otherwise Zapier also accepts a sample. This is crucial.&lt;/p&gt;
+
+&lt;p&gt;Most developers, unfortunately, work in environments that take a lot from open source but don&amp;rsquo;t contribute back as much as they should. This means that developers don&amp;rsquo;t build up an OSS portfolio during working hours. And they may not be in a position to come up with weekend projects: they may have a family to be with, or simply they may have a slew of interests and can&amp;rsquo;t be bothered to code during their spare time. That doesn&amp;rsquo;t subtract from what kind of asset they can be for your company.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;So, to sum up:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Show what the company is like, not what it does&lt;/li&gt;
+&lt;li&gt;List what challenges the successful candidate will have to tackle&lt;/li&gt;
+&lt;li&gt;Talk about the candidate more than you talk about the company&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t use hard requirements, e.g.: years of experience; give an idea of what you&amp;rsquo;re looking for instead&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t filter based on the GitHub profile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope this helps. Let me know in the comments if you have other things you look for in a job spec!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>React on Phoenix</title>
