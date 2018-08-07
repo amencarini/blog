@@ -2,111 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elm on Alessandro Mencarini</title>
-    <link>http://amencarini.com/tags/elm/</link>
+    <link>https://amencarini.com/tags/elm/</link>
     <description>Recent content in Elm on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sun, 21 Aug 2016 13:56:23 +0100</lastBuildDate>
-    <atom:link href="http://amencarini.com/tags/elm/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amencarini.com/tags/elm/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Trying out Elm</title>
-      <link>http://amencarini.com/tech/trying-out-elm/</link>
+      <link>https://amencarini.com/tech/trying-out-elm/</link>
       <pubDate>Sun, 21 Aug 2016 13:56:23 +0100</pubDate>
       
-      <guid>http://amencarini.com/tech/trying-out-elm/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&amp;hellip; What should I use to get back on track?&lt;/p&gt;
-
-&lt;p&gt;As I&amp;rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for &lt;a href=&#34;http://elm-lang.org/&#34;&gt;Elm&lt;/a&gt;, a functional language that compiles to JavaScript.&lt;/p&gt;
-
-&lt;p&gt;So, I&amp;rsquo;ve decided to use Elm as the gateway back into the browser world, and recently started to experiment with it. I&amp;rsquo;ve tried to push my understanding to its limit, to see if the hype was warranted.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-rundown&#34;&gt;The rundown&lt;/h2&gt;
-
-&lt;p&gt;Elm takes a completely clean break from JavaScript, despite compiling to it.&lt;/p&gt;
-
-&lt;p&gt;A few characteristics of Elm:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Statically typed, with union types being at its core&lt;/li&gt;
-&lt;li&gt;Completely immutable&lt;/li&gt;
-&lt;li&gt;Purely functional (there is a specific part of the standard library dealing with side effects)&lt;/li&gt;
-&lt;li&gt;Very cleverly designed interoperability with JavaScript&lt;/li&gt;
-&lt;li&gt;No non-sense tooling: the compiler is called elm-make, the repl elm-repl, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;the-architecture&#34;&gt;The Architecture&lt;/h2&gt;
-
-&lt;p&gt;In the Elm community there&amp;rsquo;s a standard way of setting up applications that emerged. It&amp;rsquo;s called, unsurprisingly, &lt;a href=&#34;http://guide.elm-lang.org/architecture/index.html&#34;&gt;The Elm Architecture&lt;/a&gt;. I suggest you give it a read. But what is it all about?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The application has three main elements: Model, View, and Update.&lt;/li&gt;
-&lt;li&gt;Data flows uniderectionally: you setup events in the View, those will be processed by the Update, which will modify the Model. When the model changes, the views will be re-rendered.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This pattern, conjoined by fact that the model sits in a single place, allows for some spectacular tricks, my favourite being the &lt;a href=&#34;http://debug.elm-lang.org/&#34;&gt;time travelling debugger&lt;/a&gt;.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/RUeLd7T7Xi4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h2 id=&#34;type-system&#34;&gt;Type system&lt;/h2&gt;
-
-&lt;p&gt;One of the things that I struggled the most while getting up to speed with Elm was its type system. The reason being, all functions can be automatically curried. Let&amp;rsquo;s see an example from the repl:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; hello name location = &amp;quot;Hello, &amp;quot; ++ name ++ &amp;quot;, from &amp;quot; ++ location
-&amp;lt;function&amp;gt; : String -&amp;gt; String -&amp;gt; String
-&amp;gt; hello &amp;quot;Alessandro&amp;quot;
-&amp;lt;function&amp;gt; : String -&amp;gt; String
-&amp;gt; hello &amp;quot;Alessandro&amp;quot; &amp;quot;London&amp;quot;
-&amp;quot;Hello, Alessandro, from London&amp;quot; : String
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;So, what&amp;rsquo;s going on here? I defined a function, &lt;code&gt;hello&lt;/code&gt;, that accepts two parameters, and returns a string. This emerges from the notation, &lt;code&gt;&amp;lt;function&amp;gt; : String -&amp;gt; String -&amp;gt; String&lt;/code&gt;. But what happens if we pass only one parameter of the two? The repl says, &lt;code&gt;&amp;lt;function&amp;gt; : String -&amp;gt; String&lt;/code&gt;, meaning we&amp;rsquo;re getting back the partially-applied version of hello, now accepting a single string, and returns a string.&lt;/p&gt;
-
-&lt;p&gt;As you can see, the compiler does an outstanding job in inferring types and gives you amazing hints when something is not quite right.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;The type annotation for `myMethod` does not match its definition. - The type annotation is saying:
-
-    String -&amp;gt; String -&amp;gt; String
-
-But I am inferring that the definition has this type:
-
-    String -&amp;gt; String -&amp;gt; Int
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;While dealing with the types can sometimes be daunting, &lt;a href=&#34;http://tech.noredink.com/&#34;&gt;NoRedInk&lt;/a&gt; reported no runtime exceptions on their Elm code, since they deployed it in production. Not many companies dealing with front-end can match that sort of claim, I&amp;rsquo;m sure.&lt;/p&gt;
-
-&lt;p&gt;Also, the compiler is extremely fast; the feedback while developing is never a hinderance, as you instantly know what to fix.&lt;/p&gt;
-
-&lt;h2 id=&#34;infinitely-nestable&#34;&gt;&amp;ldquo;Infinitely nestable&amp;rdquo;?&lt;/h2&gt;
-
-&lt;p&gt;The claim that mostly got my attention was this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Elm Architecture is a simple pattern for infinitely nestable components&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Intrigued, I set out to create a Trello &amp;ldquo;clone&amp;rdquo;, &lt;a href=&#34;https://github.com/amencarini/trellex&#34;&gt;Trellex&lt;/a&gt;, using Elm on the client and Phoenix on the server. The initial model was as follow:&lt;/p&gt;
-
-&lt;p&gt;I have a &lt;code&gt;Main&lt;/code&gt; module where the application gets initialised. The model is a &lt;code&gt;Board&lt;/code&gt;, which has many &lt;code&gt;List&lt;/code&gt;s. A &lt;code&gt;List&lt;/code&gt; has many &lt;code&gt;Card&lt;/code&gt;s.&lt;/p&gt;
-
-&lt;p&gt;The difficult bit is the fact that any event, wherever it&amp;rsquo;s been triggered, will go through the &lt;code&gt;update&lt;/code&gt; function you define when starting the application. Specifically, I have 5 layers to traverse back and forth when the event happens: after the event reached the &lt;code&gt;Main&lt;/code&gt; I had to ask each individual module how to update their respective sub-model. Setting up all the plumbing in place was very complicated.&lt;/p&gt;
-
-&lt;p&gt;In the end I changed the modelling completely, having all the sub-models directly available from &lt;code&gt;Main&lt;/code&gt;, and that actually made the application a lot easier to grok.&lt;/p&gt;
-
-&lt;p&gt;Perhaps it&amp;rsquo;s just me not understanding the correct way to deal with this. This could also be related to the language still to reach version 1.0: best practices and patterns have yet to be set in stone.&lt;/p&gt;
-
-&lt;h2 id=&#34;tl-dr&#34;&gt;tl;dr&lt;/h2&gt;
-
-&lt;p&gt;Elm delivers on the promise to provide with a super-safe way to build front-end applications. The ramp-up time can be high as there&amp;rsquo;s a lot to learn, especially if you&amp;rsquo;re not used to functional programming, or strict type systems. That said, I think the advantage of not having to with good ol&amp;rsquo; JavaScript&amp;rsquo;s quirks (albeit ES2015 improvements are tangible), is great value.&lt;/p&gt;
-
-&lt;p&gt;There is certainly lots of work I need to do to fully understand the language potential, but so far it&amp;rsquo;s been a great experience.&lt;/p&gt;
-</description>
+      <guid>https://amencarini.com/tech/trying-out-elm/</guid>
+      <description>I&amp;rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&amp;hellip; What should I use to get back on track?
+As I&amp;rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for Elm, a functional language that compiles to JavaScript.</description>
     </item>
     
   </channel>

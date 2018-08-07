@@ -14,13 +14,13 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.16" />
+<meta name="generator" content="Hugo 0.46" />
 
   <meta property="og:title" content="Alessandro Mencarini" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="http://amencarini.com/" />
+<meta property="og:url" content="https://amencarini.com/" />
 
 
   
@@ -32,17 +32,17 @@
   
   
 
-  <link rel="stylesheet" href="http://amencarini.com//css/redlounge.css">
+  <link rel="stylesheet" href="https://amencarini.com//css/redlounge.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
 
   
-  <link href="http://amencarini.com/index.xml" rel="alternate" type="application/rss+xml" title="Alessandro Mencarini" />
+  <link href="https://amencarini.com/index.xml" rel="alternate" type="application/rss+xml" title="Alessandro Mencarini" />
 
     
   
@@ -60,13 +60,16 @@
 
   
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-82897906-2', 'auto');
-ga('send', 'pageview');
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-82897906-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 
@@ -88,7 +91,7 @@ ga('send', 'pageview');
 
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://amencarini.com/">Home</a></li>
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="https://amencarini.com/">Home</a></li>
         
           <li class="nav-item"><span class="nav-item-separator">//</span><a href="/pages/hello">About me</a></li>
         
@@ -153,17 +156,22 @@ ga('send', 'pageview');
                 
                 <div class="post-categories">
                     
-                    <a class="post-category post-category-the-human-side" href="http://amencarini.com//categories/the-human-side">The human side</a>
+                    <a class="post-category post-category-the-human-side" href="https://amencarini.com//categories/the-human-side">The human side</a>
                     
                 </div>
                 
             </p>
-            <article class="post-summary">
-                  The quest for the Holy Grail A job spec that developers relate to is a rare sight. I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is the relationship between recruiters and developers. The conversation got interesting when he said this: I am not sure our job specs are very good. At that point, I had a fleeting recollection that while on Twitter, I stumbled on the Zapier jobs page.
+            
+              <article class="post-summary">
+                  The quest for the Holy Grail A job spec that developers relate to is a rare sight.
+I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is the relationship between recruiters and developers. The conversation got interesting when he said this:
+ I am not sure our job specs are very good.
+ At that point, I had a fleeting recollection that while on Twitter, I stumbled on the Zapier jobs page.
               </article>
               <div class="read-more-link">
                   <a href="/tech/compelling-job-specs/"><span class="read-more-slashes">//</span>Read More...</a>
               </div>
+            
           </section>
           
             <section  class="post">
@@ -187,12 +195,16 @@ ga('send', 'pageview');
                 
                 
             </p>
-            <article class="post-summary">
-                  Phoenix&rsquo;s author Chris McCord decided that instead of implementing a brand new pipeline for JavaScript and CSS, it was wiser to rely on existing tools. Specifically, Brunch was chosen. An advantage of this is that using React with ES6 and JSX is dead easy, as Babel is already available for us. In your Phoenix project&rsquo;s directory install the Node modules you&rsquo;ll need: $ npm install --save react react-dom babel-preset-react Change brunch-config.js and add the presets: // Configure your plugins plugins: { babel: { presets: [&quot;es2015&quot;, &quot;react&quot;], // Do not use ES6 compiler in vendor code ignore: [/web\/static\/vendor/] } }, Add a div for your React in your view&hellip; &lt;div id=&quot;app&quot;&gt;&lt;/div&gt; &hellip; and React code in app.js import React from &quot;react&quot; import ReactDOM from &quot;react-dom&quot; class Title extends React.Component { render() { return (&lt;h1&gt;React works!&lt;/h1&gt;) } } ReactDOM.render( &lt;Title /&gt;, document.getElementById(&quot;app&quot;) ) Et voila!
+            
+              <article class="post-summary">
+                  Phoenix&rsquo;s author Chris McCord decided that instead of implementing a brand new pipeline for JavaScript and CSS, it was wiser to rely on existing tools. Specifically, Brunch was chosen.
+An advantage of this is that using React with ES6 and JSX is dead easy, as Babel is already available for us.
+ In your Phoenix project&rsquo;s directory install the Node modules you&rsquo;ll need:  $ npm install --save react react-dom babel-preset-react   Change brunch-config.
               </article>
               <div class="read-more-link">
                   <a href="/tech/react-on-phoenix/"><span class="read-more-slashes">//</span>Read More...</a>
               </div>
+            
           </section>
           
             <section  class="post">
@@ -217,17 +229,21 @@ ga('send', 'pageview');
                 
                 <div class="post-categories">
                     
-                    <a class="post-category post-category-the-human-side" href="http://amencarini.com//categories/the-human-side">The human side</a>
+                    <a class="post-category post-category-the-human-side" href="https://amencarini.com//categories/the-human-side">The human side</a>
                     
                 </div>
                 
             </p>
-            <article class="post-summary">
-                  A sour relationship The relationship between developers and recruiters is not an easy one. For developers, recruiters are mostly a pain in the back, bothering them at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career. For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiters (privately and publicly) because it builds camaraderie.
+            
+              <article class="post-summary">
+                  A sour relationship The relationship between developers and recruiters is not an easy one.
+For developers, recruiters are mostly a pain in the back, bothering them at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career.
+For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiters (privately and publicly) because it builds camaraderie.
               </article>
               <div class="read-more-link">
                   <a href="/tech/recruiters-vs-devs-the-eternal-struggle/"><span class="read-more-slashes">//</span>Read More...</a>
               </div>
+            
           </section>
           
             <section  class="post">
@@ -252,19 +268,22 @@ ga('send', 'pageview');
                 
                 <div class="post-categories">
                     
-                    <a class="post-category post-category-new-toys" href="http://amencarini.com//categories/new-toys">New toys</a>
+                    <a class="post-category post-category-new-toys" href="https://amencarini.com//categories/new-toys">New toys</a>
                     
-                    <a class="post-category post-category-development" href="http://amencarini.com//categories/development">Development</a>
+                    <a class="post-category post-category-development" href="https://amencarini.com//categories/development">Development</a>
                     
                 </div>
                 
             </p>
-            <article class="post-summary">
-                  I&rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&hellip; What should I use to get back on track? As I&rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for Elm, a functional language that compiles to JavaScript.
+            
+              <article class="post-summary">
+                  I&rsquo;ve been out of the front-end game for a while, and decided to dip my toes back again after roughly 2 years of little-to-none JavaScript. So many things happened in the meanwhile! React, Redux, Flux, Om&hellip; What should I use to get back on track?
+As I&rsquo;ve been dabbling a lot in Elixir and Phoenix space, I saw in the community a growing interest for Elm, a functional language that compiles to JavaScript.
               </article>
               <div class="read-more-link">
                   <a href="/tech/trying-out-elm/"><span class="read-more-slashes">//</span>Read More...</a>
               </div>
+            
           </section>
           
             <section  class="post">
@@ -282,12 +301,25 @@ ga('send', 'pageview');
                 
                 
             </p>
-            <article class="post-summary">
-                  Hi! My name&rsquo;s Alessandro Mencarini. I&rsquo;m a programmer, mostly for the web. I am a proud member of Team B. Technologies I use and/or play with: Ruby Rails Elixir Phoenix JavaScript Elm
-              </article>
-              <div class="read-more-link">
-                  <a href="/pages/hello/"><span class="read-more-slashes">//</span>Read More...</a>
-              </div>
+            
+              
+
+<h3 id="hi">Hi!</h3>
+
+<p>My name&rsquo;s Alessandro Mencarini. I&rsquo;m a programmer, mostly for the web. I am a proud member of <a href="http://goo.gl/KKPpfH">Team B</a>.</p>
+
+<p>Technologies I use and/or play with:</p>
+
+<ul>
+<li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+<li><a href="http://rubyonrails.org/">Rails</a></li>
+<li><a href="http://elixir-lang.org/">Elixir</a></li>
+<li><a href="http://www.phoenixframework.org/">Phoenix</a></li>
+<li>JavaScript</li>
+<li><a href="http://elm-lang.org/">Elm</a></li>
+</ul>
+
+            
           </section>
           
         </div>
@@ -304,7 +336,7 @@ ga('send', 'pageview');
 		</ul>
 	</div>
 
-	<p>&copy; 2016. All rights reserved.</p>
+	<p>&copy; 2018. All rights reserved.</p>
 </div>
         </div>
     </div>

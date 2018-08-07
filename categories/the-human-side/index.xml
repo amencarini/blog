@@ -2,201 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Human Side on Alessandro Mencarini</title>
-    <link>http://amencarini.com/categories/the-human-side/</link>
+    <link>https://amencarini.com/categories/the-human-side/</link>
     <description>Recent content in The Human Side on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Sat, 01 Oct 2016 12:25:59 +0100</lastBuildDate>
-    <atom:link href="http://amencarini.com/categories/the-human-side/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amencarini.com/categories/the-human-side/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Compelling job specs</title>
-      <link>http://amencarini.com/tech/compelling-job-specs/</link>
+      <link>https://amencarini.com/tech/compelling-job-specs/</link>
       <pubDate>Sat, 01 Oct 2016 12:25:59 +0100</pubDate>
       
-      <guid>http://amencarini.com/tech/compelling-job-specs/</guid>
-      <description>
-
-&lt;h2 id=&#34;the-quest-for-the-holy-grail&#34;&gt;The quest for the Holy Grail&lt;/h2&gt;
-
-&lt;p&gt;A job spec that developers relate to is a rare sight.&lt;/p&gt;
-
-&lt;p&gt;I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is &lt;a href=&#34;http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/&#34;&gt;the relationship between recruiters and developers&lt;/a&gt;. The conversation got interesting when he said this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I am not sure our job specs are very good.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At that point, I had a fleeting recollection that while on Twitter, I stumbled on the &lt;a href=&#34;https://zapier.com/about/&#34;&gt;Zapier jobs page&lt;/a&gt;. Specifically I had a look at the &lt;a href=&#34;https://zapier.com/jobs/product-engineer-fall-2016/&#34;&gt;Product Engineer spec&lt;/a&gt;. I also took a &lt;a href=&#34;http://amencarini.com/images/zapier-job-spec.png&#34;&gt;screenshot&lt;/a&gt; of the spec, for when they find their perfect candidate and the page gets removed!&lt;/p&gt;
-
-&lt;p&gt;I am always wowed by the quality they show in their job specs.&lt;/p&gt;
-
-&lt;h2 id=&#34;ease-the-application-process&#34;&gt;Ease the application process&lt;/h2&gt;
-
-&lt;p&gt;Zapier understands that even applying for a job can be daunting. This passage sums it up:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We know applying for and taking on a new a job at any company requires a leap of faith. We want you to feel comfortable and excited to apply at Zapier. To help share a bit more about life at Zapier, here are a few resources in addition to the job description that can give you an inside look at what life is like at Zapier. Hopefully you&amp;rsquo;ll take the leap of faith and apply.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think this is great. Having stuff like a company code of conduct, a remote work policy, and/or a description of what the day to day of what working for the company looks like, can be beneficial to the amount of applications you&amp;rsquo;ll receive.&lt;/p&gt;
-
-&lt;h2 id=&#34;lay-out-the-challenges&#34;&gt;Lay out the challenges&lt;/h2&gt;
-
-&lt;p&gt;If your company works on something interesting and unusual, let that emerge. Interesting problems can range from GIS, to machine learning, to simply scale up a part of the system the candidate will be working on.&lt;/p&gt;
-
-&lt;p&gt;Specify what processes you use on your day-to-day: how invested is the company on practices like TDD or pair programming? What&amp;rsquo;s your current stack? Do you plan to change what the stack is made of in a few months/years?&lt;/p&gt;
-
-&lt;h2 id=&#34;no-bullet-point-requirements&#34;&gt;No &amp;ldquo;bullet point&amp;rdquo; requirements&lt;/h2&gt;
-
-&lt;p&gt;Many specs will list in a very dry way what they expect the candidate to know or be experienced with. Zapier explains in a nice way &lt;em&gt;who&lt;/em&gt; they&amp;rsquo;re looking for, hot &lt;em&gt;what&lt;/em&gt; they&amp;rsquo;re looking for.&lt;/p&gt;
-
-&lt;p&gt;Hard requirements can sometimes be intimidating. Many good developers are often on the &amp;ldquo;bad&amp;rdquo; side of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&#34;&gt;Dunning-Kruger&lt;/a&gt; curve. They will see that 3 years of experience are required, and if they have 2 years of experience they will not apply. We&amp;rsquo;re pedantic, keep it in mind.&lt;/p&gt;
-
-&lt;p&gt;Zapier also helps with this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Regardless of how well you feel you fit our description, we encourage you to apply if [&amp;hellip;]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Again, when you hire someone, they&amp;rsquo;ll shape the position more than the position will shape them.&lt;/p&gt;
-
-&lt;h2 id=&#34;it-s-not-about-the-employer&#34;&gt;It&amp;rsquo;s not about the employer&lt;/h2&gt;
-
-&lt;p&gt;No need to loiter too long on what the company does; if I&amp;rsquo;m on the page it&amp;rsquo;s quite likely I know about the company already. Much better to talk about the company&amp;rsquo;s philosophy, and what happens at the company outside of working hours. A list of social events, a description of a day at the office (or on the Slack channel, if 100% remote); things like these can give a picture about the culture, and can give a strong signal to the candidate on whether the company is a good fit or not.&lt;/p&gt;
-
-&lt;p&gt;A good candidate will do their due diligence anyway, learning as much as possible about the business.&lt;/p&gt;
-
-&lt;h2 id=&#34;github-is-a-bad-source-of-truth&#34;&gt;GitHub is a bad source of truth&lt;/h2&gt;
-
-&lt;p&gt;Zapier takes a sensible approach to open source contributions from the candidate:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Include links to your portfolio/Github profile or provide us with 500+ LOC to help us get a feel for how you write code.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If the candidate is active on OSS projects, good. Otherwise Zapier also accepts a sample. This is crucial.&lt;/p&gt;
-
-&lt;p&gt;Most developers, unfortunately, work in environments that take a lot from open source but don&amp;rsquo;t contribute back as much as they should. This means that developers don&amp;rsquo;t build up an OSS portfolio during working hours. And they may not be in a position to come up with weekend projects: they may have a family to be with, or simply they may have a slew of interests and can&amp;rsquo;t be bothered to code during their spare time. That doesn&amp;rsquo;t subtract from what kind of asset they can be for your company.&lt;/p&gt;
-
-&lt;h2 id=&#34;tl-dr&#34;&gt;tl;dr&lt;/h2&gt;
-
-&lt;p&gt;So, to sum up:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Show what the company is like, not what it does&lt;/li&gt;
-&lt;li&gt;List what challenges the successful candidate will have to tackle&lt;/li&gt;
-&lt;li&gt;Talk about the candidate more than you talk about the company&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t use hard requirements, e.g.: years of experience; give an idea of what you&amp;rsquo;re looking for instead&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t filter based on the GitHub profile&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hope this helps. Let me know in the comments if you have other things you look for in a job spec!&lt;/p&gt;
-</description>
+      <guid>https://amencarini.com/tech/compelling-job-specs/</guid>
+      <description>The quest for the Holy Grail A job spec that developers relate to is a rare sight.
+I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is the relationship between recruiters and developers. The conversation got interesting when he said this:
+ I am not sure our job specs are very good.
+ At that point, I had a fleeting recollection that while on Twitter, I stumbled on the Zapier jobs page.</description>
     </item>
     
     <item>
       <title>Recruiters vs Devs: The Eternal Struggle</title>
-      <link>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</link>
+      <link>https://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</link>
       <pubDate>Sat, 27 Aug 2016 10:05:59 +0100</pubDate>
       
-      <guid>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</guid>
-      <description>
-
-&lt;h2 id=&#34;a-sour-relationship&#34;&gt;A sour relationship&lt;/h2&gt;
-
-&lt;p&gt;The relationship between developers and recruiters is not an easy one.&lt;/p&gt;
-
-&lt;p&gt;For developers, recruiters are mostly a pain in the back, bothering them at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career.&lt;/p&gt;
-
-&lt;p&gt;For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiters (privately and publicly) because it builds camaraderie.&lt;/p&gt;
-
-&lt;p&gt;As many things in life, the truth is likely to be found in the middle ground. Devs can overreact and be nasty about recruiters getting in touch. But that happens also because of the sheer amount of rubbish they receive.&lt;/p&gt;
-
-&lt;p&gt;A dev&amp;rsquo;s attention span is already challenged by the inordinate amount of information they have to digest during their day-to-day at work.&lt;/p&gt;
-
-&lt;p&gt;I have received a few emails asking &amp;ldquo;what&amp;rsquo;s the best number&amp;rdquo; to discuss a Scala lead position in Amsterdam: I don&amp;rsquo;t have any commercial experience in Scala and I&amp;rsquo;m not interested in relocating.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s a major waste of my time and my attention. That will make me grumpy with absolute certainty.&lt;/p&gt;
-
-
-&lt;figure class=&#34;responsive&#34;&gt;
-    
-        &lt;img src=&#34;http://amencarini.com/images/grumpy_cat_go_away.jpg&#34; alt=&#34;Grumpy Cat says go away&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;dear-recruiter&#34;&gt;Dear recruiter&lt;/h2&gt;
-
-&lt;p&gt;I appreciate that you may have quotas to reach and mostly rely on commissions to make a living. But if you start to heavily spam any dev in your database without any criteria, you&amp;rsquo;ll lose whatever goodwill I have towards you.&lt;/p&gt;
-
-&lt;p&gt;So: some practical tips on how to best interact with the sorry bunch we, developers, are.&lt;/p&gt;
-
-&lt;h3 id=&#34;do-your-due-diligence&#34;&gt;Do your due diligence&lt;/h3&gt;
-
-&lt;p&gt;I have been contacted recently, by two different recruiters, for a Ruby job based on the fact that I have &lt;a href=&#34;https://github.com/amencarini/dummy&#34;&gt;a public Ruby repository on my GitHub&lt;/a&gt;. Now: any developer will quickly realise this is a test repository, and indeed I used it to test the GitHub API when building code around it.&lt;/p&gt;
-
-&lt;p&gt;While I appreciate you are not a developer, try to have a vague idea of what you&amp;rsquo;re recruiting for. Spend half an hour a day for a week doing this &lt;a href=&#34;https://www.codeschool.com/courses/rails-for-zombies-redux&#34;&gt;Rails introductory course&lt;/a&gt; and at the very least you&amp;rsquo;ll start to discern between real repositories and fake ones.&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Subject: What Type of Girls Do Rails Guys Tend to Date?&amp;quot; HT &lt;a href=&#34;https://twitter.com/gabrielgironda&#34;&gt;@gabrielgironda&lt;/a&gt;&lt;a href=&#34;https://t.co/nrWZAcZ4R9&#34;&gt;pic.twitter.com/nrWZAcZ4R9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shit Recruiters Say (@recruiterbro) &lt;a href=&#34;https://twitter.com/recruiterbro/status/767753200178909184&#34;&gt;August 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;em&gt;&lt;a href=&#34;https://twitter.com/recruiterbro&#34;&gt;Shit Recruiters Say&lt;/a&gt; is a great addition to your Twitter feed.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;be-relevant&#34;&gt;Be relevant&lt;/h3&gt;
-
-&lt;p&gt;That one should be pretty easy. There are two possible scenarios: you either know or don&amp;rsquo;t know what I&amp;rsquo;m looking for in terms of my next career move.&lt;/p&gt;
-
-&lt;p&gt;This really boils down to a few simple things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Do you know if I&amp;rsquo;m actively looking on the market?&lt;/li&gt;
-&lt;li&gt;Do you know what technologies I&amp;rsquo;m skilled with?&lt;/li&gt;
-&lt;li&gt;Do you know what technologies I would and would not enjoy to work with?&lt;/li&gt;
-&lt;li&gt;Do you know if I&amp;rsquo;m looking for a role that&amp;rsquo;s more technical or more managerial?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If the answer is no to any of these, do one thing: ask me.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll be happy to give you the rundown on when I&amp;rsquo;ll be possibly looking if I&amp;rsquo;m not currently on the market, and what my aspirations are. You can stick that information in your CRM, or whatever you use, and contact me at a good time for a role that may look appealing to me, given the information above.&lt;/p&gt;
-
-&lt;h3 id=&#34;don-t-ask-for-my-number&#34;&gt;Don&amp;rsquo;t ask for my number&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You don’t have my number
-We don’t need each other now
-&lt;em&gt;–Foals, &lt;a href=&#34;https://www.youtube.com/watch?v=bAsGFnLl2u0&#34;&gt;My Number&lt;/a&gt;, 2012&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Perhaps my biggest bugbear when being contacted by recruiters is when the introductory email follows the following pattern:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I have this opportunity for a &lt;em&gt;very-secretive-company-that-does-something-extremely-generic&lt;/em&gt;. What&amp;rsquo;s the best number we can discuss this amazing opportunity on?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The answer to that question is: none. There is no number we can discuss anything on. Why is that, you ask? Well, if I were to have a 15 minutes chat with recruiters any time they got in touch, I wouldn&amp;rsquo;t have any spare time left for anything else.&lt;/p&gt;
-
-&lt;p&gt;You know how we could have had a conversation? If you sent me the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The name of the company you&amp;rsquo;re hiring for;&lt;/li&gt;
-&lt;li&gt;A job spec that has candidate requirements and the tech stack your client/company uses;&lt;/li&gt;
-&lt;li&gt;A salary range.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And of course all of the above must click with my goals.&lt;/p&gt;
-
-&lt;p&gt;Perhaps you are afraid that when I&amp;rsquo;ll be given a company name, I&amp;rsquo;ll go directly with them. That would increase my chances of being employed as the company won&amp;rsquo;t have to pay you commissions, right?&lt;/p&gt;
-
-&lt;p&gt;You may have had bad experiences in this regard, but most developers I know are not that awful a person. If you got me a good lead, I&amp;rsquo;d be following it through with you.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-interest-is-mutual&#34;&gt;The interest is mutual&lt;/h2&gt;
-
-&lt;p&gt;In the end it&amp;rsquo;s in the developer community interest to have a healthy recruiting ecosystem. We would be overwhelmed by the sheer amount of opportunities out there and having a filter that works is absolutely critical.&lt;/p&gt;
-
-&lt;p&gt;But you, recruiter, have to step it up. Let&amp;rsquo;s be on the same page. Understand what I&amp;rsquo;m talking about when I refer to, say, front-end and back-end. And both our careers will benefit from that.&lt;/p&gt;
-</description>
+      <guid>https://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</guid>
+      <description>A sour relationship The relationship between developers and recruiters is not an easy one.
+For developers, recruiters are mostly a pain in the back, bothering them at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career.
+For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiters (privately and publicly) because it builds camaraderie.</description>
     </item>
     
   </channel>

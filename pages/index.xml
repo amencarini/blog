@@ -2,36 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Alessandro Mencarini</title>
-    <link>http://amencarini.com/pages/</link>
+    <link>https://amencarini.com/pages/</link>
     <description>Recent content in Pages on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-UK</language>
     <lastBuildDate>Fri, 21 Aug 2015 14:52:22 +0100</lastBuildDate>
-    <atom:link href="http://amencarini.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://amencarini.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About me</title>
-      <link>http://amencarini.com/pages/hello/</link>
+      <link>https://amencarini.com/pages/hello/</link>
       <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
       
-      <guid>http://amencarini.com/pages/hello/</guid>
-      <description>
-
-&lt;h3 id=&#34;hi&#34;&gt;Hi!&lt;/h3&gt;
-
-&lt;p&gt;My name&amp;rsquo;s Alessandro Mencarini. I&amp;rsquo;m a programmer, mostly for the web. I am a proud member of &lt;a href=&#34;http://goo.gl/KKPpfH&#34;&gt;Team B&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Technologies I use and/or play with:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ruby-lang.org/&#34;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://elixir-lang.org/&#34;&gt;Elixir&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.phoenixframework.org/&#34;&gt;Phoenix&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JavaScript&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://elm-lang.org/&#34;&gt;Elm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://amencarini.com/pages/hello/</guid>
+      <description> Hi! My name&amp;rsquo;s Alessandro Mencarini. I&amp;rsquo;m a programmer, mostly for the web. I am a proud member of Team B.
+Technologies I use and/or play with:
+ Ruby Rails Elixir Phoenix JavaScript Elm  </description>
     </item>
     
   </channel>

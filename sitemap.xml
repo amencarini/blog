@@ -1,34 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://amencarini.com/</loc>
+    <loc>https://amencarini.com/tech/compelling-job-specs/</loc>
     <lastmod>2016-10-01T12:25:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amencarini.com/tech/compelling-job-specs/</loc>
-    <lastmod>2016-10-01T12:25:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://amencarini.com/tech/react-on-phoenix/</loc>
+    <loc>https://amencarini.com/tech/react-on-phoenix/</loc>
     <lastmod>2016-09-08T19:45:29+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</loc>
+    <loc>https://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</loc>
     <lastmod>2016-08-27T10:05:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amencarini.com/tech/trying-out-elm/</loc>
+    <loc>https://amencarini.com/tech/trying-out-elm/</loc>
     <lastmod>2016-08-21T13:56:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amencarini.com/pages/hello/</loc>
+    <loc>https://amencarini.com/pages/hello/</loc>
     <lastmod>2015-08-21T14:52:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/</loc>
+    <lastmod>2016-10-01T12:25:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/categories/development/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tags/elm/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tags/front-end/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tags/functional-programming/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/categories/new-toys/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/pages/</loc>
+    <lastmod>2015-08-21T14:52:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tags/recruiting/</loc>
+    <lastmod>2016-10-01T12:25:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tags/</loc>
+    <lastmod>2016-08-21T13:56:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/tech/</loc>
+    <lastmod>2016-10-01T12:25:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amencarini.com/categories/the-human-side/</loc>
+    <lastmod>2016-10-01T12:25:59+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
