@@ -1,25 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pages on Alessandro Mencarini</title>
     <link>https://amencarini.com/pages/</link>
     <description>Recent content in Pages on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-UK</language>
-    <lastBuildDate>Fri, 21 Aug 2015 14:52:22 +0100</lastBuildDate>
-    
-	<atom:link href="https://amencarini.com/pages/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="https://amencarini.com/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About me</title>
-      <link>https://amencarini.com/pages/hello/</link>
-      <pubDate>Fri, 21 Aug 2015 14:52:22 +0100</pubDate>
+      <title>About Me</title>
+      <link>https://amencarini.com/pages/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://amencarini.com/pages/hello/</guid>
-      <description> Hi! My name&amp;rsquo;s Alessandro Mencarini. I&amp;rsquo;m a programmer, mostly for the web. I am a proud member of Team B.
-Technologies I use and/or play with:
- Ruby Rails Elixir Phoenix JavaScript Elm  </description>
+      <guid>https://amencarini.com/pages/about-me/</guid>
+      <description></description>
     </item>
     
   </channel>

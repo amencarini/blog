@@ -1,34 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>The Human Side on Alessandro Mencarini</title>
+    <title>The human side on Alessandro Mencarini</title>
     <link>https://amencarini.com/categories/the-human-side/</link>
-    <description>Recent content in The Human Side on Alessandro Mencarini</description>
+    <description>Recent content in The human side on Alessandro Mencarini</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-UK</language>
-    <lastBuildDate>Sat, 01 Oct 2016 12:25:59 +0100</lastBuildDate>
-    
-	<atom:link href="https://amencarini.com/categories/the-human-side/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 01 Oct 2016 08:31:21 +0000</lastBuildDate><atom:link href="https://amencarini.com/categories/the-human-side/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Compelling job specs</title>
-      <link>https://amencarini.com/tech/compelling-job-specs/</link>
-      <pubDate>Sat, 01 Oct 2016 12:25:59 +0100</pubDate>
+      <title>Compelling Job Specs</title>
+      <link>https://amencarini.com/posts/compelling-job-specs/</link>
+      <pubDate>Sat, 01 Oct 2016 08:31:21 +0000</pubDate>
       
-      <guid>https://amencarini.com/tech/compelling-job-specs/</guid>
+      <guid>https://amencarini.com/posts/compelling-job-specs/</guid>
       <description>The quest for the Holy Grail A job spec that developers relate to is a rare sight.
 I was chatting with an acquaintance that works in the recruiting space, about the never-ending battle between good an evil that is the relationship between recruiters and developers. The conversation got interesting when he said this:
- I am not sure our job specs are very good.
- At that point, I had a fleeting recollection that while on Twitter, I stumbled on the Zapier jobs page.</description>
+I am not sure our job specs are very good.
+At that point, I had a fleeting recollection that while on Twitter, I stumbled on the Zapier jobs page.</description>
     </item>
     
     <item>
-      <title>Recruiters vs Devs: The Eternal Struggle</title>
-      <link>https://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</link>
-      <pubDate>Sat, 27 Aug 2016 10:05:59 +0100</pubDate>
+      <title>Recruiters vs Devs the Eternal Struggle</title>
+      <link>https://amencarini.com/posts/recruiters-vs-devs-the-eternal-struggle/</link>
+      <pubDate>Sat, 27 Aug 2016 08:45:16 +0000</pubDate>
       
-      <guid>https://amencarini.com/tech/recruiters-vs-devs-the-eternal-struggle/</guid>
+      <guid>https://amencarini.com/posts/recruiters-vs-devs-the-eternal-struggle/</guid>
       <description>A sour relationship The relationship between developers and recruiters is not an easy one.
 For developers, recruiters are mostly a pain in the back, bothering them at all times of the day in order to offer jobs completely irrelevant to any goal a developer has in their career.
 For recruiters, developers end up being a bunch of spoiled kids who whine about job postings and bash recruiters (privately and publicly) because it builds camaraderie.</description>
